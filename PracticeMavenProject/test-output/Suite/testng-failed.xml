@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Testtwo(failed)">
+    <classes>
+      <class name="TestSuite.Caterpillarhome">
+        <methods>
+          <include name="RunningBeforeMethod"/>
+          <include name="RunningTest"/>
+          <include name="RunningAfterMethod"/>
+          <include name="register"/>
+        </methods>
+      </class> <!-- TestSuite.Caterpillarhome -->
+    </classes>
+  </test> <!-- Testtwo(failed) -->
+</suite> <!-- Failed suite [Suite] -->
