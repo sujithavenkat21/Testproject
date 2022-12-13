@@ -26,11 +26,19 @@ public class Caterpillarshoppage extends TestBase{
 	@FindBy(xpath=".//a[@id=\"customer_register_link\"]")
 	WebElement register;
 	
+	@FindBy(xpath=".//a[@id=\"customer_login_link\"]")
+	WebElement login;
+	
+	
 	public WebElement getregister()
 	{
 		return register;
 	}
 
+	public WebElement getlogin()
+	{
+		return login;
+	}
 	public WebElement getFeatureLink()
 	{
 		return featureLink;

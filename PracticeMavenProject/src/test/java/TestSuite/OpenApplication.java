@@ -23,7 +23,7 @@ public class OpenApplication extends TestBase{
 	    Thread.sleep(2000l);
 	 }
 	
-	@Test
+	@Test(priority=2)
 	public void navigation() throws Exception
 	{
 		Keywords key = new Keywords(driver);

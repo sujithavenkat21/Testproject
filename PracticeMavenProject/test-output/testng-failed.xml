@@ -7,7 +7,7 @@
         <methods>
           <include name="RunningBeforeMethod"/>
           <include name="RunningAfterMethod"/>
-          <include name="register"/>
+          <include name="login"/>
         </methods>
       </class> <!-- TestSuite.Caterpillarhome -->
     </classes>

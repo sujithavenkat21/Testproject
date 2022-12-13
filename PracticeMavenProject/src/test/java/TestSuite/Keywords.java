@@ -26,7 +26,7 @@ public class Keywords extends TestBase{
 		element.click();
 	}
 	
-	public void sendText(WebElement element, String testName) throws Exception
+	public void sendkeys(WebElement element, String testName) throws Exception
 	{
 		element.sendKeys(testName);
 	}
